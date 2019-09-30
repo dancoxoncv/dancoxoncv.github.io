@@ -1882,3 +1882,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 }
+
+
+@media screen and (orientation:landscape){
+  #about .about-col .img img {
+    display: none;
+  }
+}
