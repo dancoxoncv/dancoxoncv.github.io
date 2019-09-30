@@ -555,6 +555,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 20px);
 }
 
+#about .container #aboutMe {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  
+}
+
 .section-header p {
   text-align: center;
   padding-bottom: 30px;
@@ -637,6 +643,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 10;
 }
 
+#about .about-col .title {
+  padding-top: 20px;
+}
+
 #about .about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
@@ -709,7 +719,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   color: #333;
   margin-bottom: 0;
-  padding: 0 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 /* College Results */
@@ -964,9 +974,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 
-#skills {
+/* #skills {
   padding: 60px 0;
-}
+} */
 
 #skills .progress {
   height: 35px;
@@ -1813,6 +1823,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 15px;
   }
 
+#accordian {
+  display: none;
+}
+
   #intro .carousel-content img {
     max-width: 260px;
     max-height: 260px;
@@ -1821,6 +1835,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #about .about-col .img img {
     display: flex; 
     margin: auto; 
+    margin-bottom: 100px;
     /* padding-top: 40px; */
     border-radius: 50%;
     max-width: 260px; 
@@ -1839,6 +1854,26 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 28px;
   }
 
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
+@media (max-width: 990px) {
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
+@media (max-width: 1280px) {
   #nav-menu-container {
     display: none;
   }
