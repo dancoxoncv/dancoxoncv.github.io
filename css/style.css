@@ -1896,16 +1896,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
   }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    #intro .carousel-content img {
-      display: none;
-    }
-  }
 
 /* Landscape */
 @media only screen 
@@ -2028,17 +2018,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    #intro .carousel-content img {
-      display: none;
-    }
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
     #intro .carousel-content img {
       display: none;
     }
