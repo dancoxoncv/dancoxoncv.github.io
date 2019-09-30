@@ -1888,7 +1888,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 and (min-width: 375px) 
 and (max-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3) {
-  #about .about-col .img img {
+  #intro .carousel-content img {
     display: none;
   }
 }
