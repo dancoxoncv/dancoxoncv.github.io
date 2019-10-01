@@ -746,9 +746,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 10;
 }
 
-#accordian .card .card-header{
+/* #accordian .card .card-header{
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-}
+} */
 
 #accordian .accordion .card .card-header button {
   color: #f2f2f2;
