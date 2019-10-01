@@ -227,6 +227,21 @@ h6 {
   text-align: center;
 }
 
+#intro .carousel-container .carousel-content .carousel-profilepic {
+	padding-bottom: 30px;
+}
+
+#intro .carousel-container .carousel-content .carousel-profilepic img{
+	display: flex;
+	line-height: 90px;
+	margin: auto;
+	border-radius: 50%;
+	width: 220px;
+	height: 220px;
+}
+
+
+
 #intro .carousel-content img {
   display: flex;
 	line-height: 90px;
@@ -1827,9 +1842,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: none;
 }
 
-  #intro .carousel-content img {
-    max-width: 260px;
-    max-height: 260px;
+  #intro .carousel-container .carousel-content .carousel-profilepic img {
+    max-width: 160px;
+    max-height: 160px;
   }
 
   #about .about-col .img img {
