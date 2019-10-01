@@ -750,9 +750,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 } */
 
-#accordian .accordion .card .card-header button {
+/* #accordian .accordion .card .card-header button {
   color: #f2f2f2;
-}
+} */
 
 #accordian h2 {
   text-align: center;
