@@ -1838,9 +1838,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 15px;
   }
 
-#accordian {
-  display: none;
-}
+/* #accordian { */
+  /* display: none; */
+/* } */
 
   #intro .carousel-container .carousel-content .carousel-profilepic img {
     max-width: 160px;
