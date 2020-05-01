@@ -563,6 +563,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 15px;
 }
 
+.section-header h4 {
+  font-size: 24px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
 .section-header h3::before {
   content: '';
   position: absolute;
@@ -948,12 +958,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
+#work .work-col ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
 /* Read More Button */
 #work .work-col .container a {
   margin: auto;
   display: block;
   /* text-align: center; */
 }
+
+
+
 
 /* Services Section
 --------------------------------*/
@@ -1055,7 +1072,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #skills #softSkills {
   padding: 60px 0;
-  padding-bottom: 0px; 
+  padding-bottom: 60px; 
 }
 
 #skills .progress .skill {
