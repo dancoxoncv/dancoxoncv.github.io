@@ -763,15 +763,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
   margin-bottom: 0;
   padding: 0px 20px 0px 20px;
-}
+} */
 
 #about .about-col ul li {
   font-size: 14px;
   line-height: 24px;
   color: #333;
   margin-bottom: 0;
-  padding: 20px 20px 20px 20px;
-} */
+  padding-right: 20px 
+} 
 
 /* College Results */
 #accordian {
