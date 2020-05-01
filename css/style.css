@@ -757,7 +757,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 20px 20px 20px 20px;
 }
 
-#about .about-col ul {
+/* #about .about-col ul {
   font-size: 14px;
   line-height: 24px;
   color: #333;
@@ -771,7 +771,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
   margin-bottom: 0;
   padding: 20px 20px 20px 20px;
-}
+} */
 
 /* College Results */
 #accordian {
