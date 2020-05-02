@@ -878,6 +878,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 9;
 }
 
+#work .work-cols .title-gm {
+  font-size: 32px;
+}
+
 #work .container {
   position: relative;
   z-index: 10;
@@ -959,7 +963,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #work .work-col ul li:not(:last-child) {
-  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  padding-right: 20px
 }
 
 /* Read More Button */
@@ -970,6 +978,42 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+#work .box {
+  margin-bottom: 30px;
+}
+
+#work .icon {
+  float: left;
+}
+
+#work .icon i {
+  color: #18d26e;
+  font-size: 36px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#work .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#work .title a {
+  color: #111;
+}
+
+#work .box:hover .title a {
+  color: #18d26e;
+}
+
+#work .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
 
 
 /* Services Section
