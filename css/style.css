@@ -891,7 +891,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.08);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 #work .work-col button {
